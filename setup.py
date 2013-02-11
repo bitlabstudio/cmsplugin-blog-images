@@ -1,6 +1,6 @@
 import os
 from setuptools import setup, find_packages
-import cmsplugin_blog_images as app
+import .cmsplugin_blog_images as app
 
 
 def read(fname):
