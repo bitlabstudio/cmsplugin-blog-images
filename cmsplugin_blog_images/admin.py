@@ -8,7 +8,7 @@ from .models import EntryImage
 
 class EntryImageInline(admin.TabularInline):
     model = EntryImage
-    extra = 1
+    max_num = 1
 
 
 EntryAdmin.inlines = EntryAdmin.inlines[:] + [EntryImageInline]
