@@ -1,5 +1,7 @@
 === ongoing ===
 
+- changed extra to max_num in EntryImageInline
+
 === 0.1 ===
 
 Initial commit
